@@ -1,11 +1,11 @@
-apiVersion: apps/v1
+  apiVersion: apps/v1
   kind: Deployment
   metadata:
     name: cds-127929-test
     namespace: default
   spec:
     replicas: 1
-    selector: 
+    selector:
       matchLabels:
         app: cds-127929-test
     template:
