@@ -37,7 +37,7 @@
             "memoryReservation": 128,
             "volumesFrom": [],
             "stopTimeout": null,
-            "image": "479370281431.dkr.ecr.us-east-1.amazonaws.com/todolist:latest",
+            "image": "479370281431.dkr.ecr.ecs-cluster-3.amazonaws.com/todolist:latest",
             "startTimeout": null,
             "firelensConfiguration": null,
             "dependsOn": null,
