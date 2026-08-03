@@ -1,6 +1,6 @@
 {
   "launchType": "FARGATE",
-  "serviceName": <+stage.variables.var1>,
+  "serviceName": "ecs-auto-W0",
   "desiredCount": 1,
   "networkConfiguration": {
       "awsvpcConfiguration": {
