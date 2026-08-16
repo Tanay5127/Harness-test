@@ -1,6 +1,6 @@
 launchType: FARGATE
-serviceName: <+stage.variables.serviceName>
-desiredCount: <+stage.variables.desiredCount>
+serviceName: ecs-bg-Qx
+desiredCount: 1
 networkConfiguration:
   awsvpcConfiguration:
     securityGroups:
