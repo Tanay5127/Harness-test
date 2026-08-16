@@ -1,5 +1,5 @@
 launchType: FARGATE
-serviceName: ecs-bg-Qx
+serviceName: "ecs-bg-Qx"
 desiredCount: 1
 networkConfiguration:
   awsvpcConfiguration:
