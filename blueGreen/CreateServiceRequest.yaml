@@ -1,5 +1,5 @@
 launchType: FARGATE
-serviceName: "ecs-bg-Qx"
+serviceName: "ecs-tanay"
 desiredCount: 1
 networkConfiguration:
   awsvpcConfiguration:
