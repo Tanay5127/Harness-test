@@ -1,5 +1,5 @@
 launchType: FARGATE
-serviceName: "ecs-tanayrollback"
+serviceName: "ecs-tankesh"
 desiredCount: 1
 networkConfiguration:
   awsvpcConfiguration:
