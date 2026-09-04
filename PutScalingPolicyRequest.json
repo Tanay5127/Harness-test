@@ -4,7 +4,7 @@
   "policyName": "P1",
   "policyType": "TargetTrackingScaling",
   "targetTrackingScalingPolicyConfiguration": {
-      "targetValue": 60,
+      "targetValue": ${{ serviceVariables.var3 }},
       "predefinedMetricSpecification": {
           "predefinedMetricType": "ECSServiceAverageCPUUtilization"
       },
