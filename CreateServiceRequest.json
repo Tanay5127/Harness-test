@@ -1,6 +1,6 @@
 {
   "launchType": "FARGATE",
-  "serviceName": ${{ serviceVariables.var1 }},
+  "serviceName": "ecs-autto-w0",
   "desiredCount": 1,
   "networkConfiguration": {
       "awsvpcConfiguration": {
