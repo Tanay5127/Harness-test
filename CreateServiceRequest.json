@@ -1,6 +1,6 @@
 {
   "launchType": "FARGATE",
-  "serviceName": "ecs-autto-w4",
+  "serviceName": "ecs-autto-w5",
   "desiredCount": 1,
   "networkConfiguration": {
       "awsvpcConfiguration": {
