@@ -2,5 +2,5 @@
     "serviceNamespace": "ecs",
     "scalableDimension": "ecs:service:DesiredCount",
     "minCapacity": ${{ serviceVariables.var2 }},
-    "maxCapacity": 4
+    "maxCapacity": 5
 }
