@@ -1,6 +1,6 @@
 {
   "launchType": "FARGATE",
-  "serviceName": "ecs-auto-w2",
+  "serviceName": "ecs-auto-w3",
   "desiredCount": 1,
   "networkConfiguration": {
       "awsvpcConfiguration": {
