@@ -1,5 +1,5 @@
 launchType: FARGATE
-serviceName: "ecs-bgtest17"
+serviceName: "ecs-bgtest18"
 desiredCount: 1
 networkConfiguration:
   awsvpcConfiguration:
