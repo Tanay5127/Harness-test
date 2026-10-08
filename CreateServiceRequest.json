@@ -1,6 +1,6 @@
 {
   "launchType": "FARGATE",
-  "serviceName": "ecs-auto-w1",
+  "serviceName": "${{service.configFiles.ecsConfigFile.content}}",
   "desiredCount": 1,
   "networkConfiguration": {
       "awsvpcConfiguration": {
