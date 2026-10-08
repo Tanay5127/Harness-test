@@ -1,6 +1,6 @@
 {
   "launchType": "FARGATE",
-  "serviceName": '<+configFile.getAsString("ecsConfigFile").trim()>',
+  "serviceName": "ecs_service_w1",
   "desiredCount": 1,
   "networkConfiguration": {
       "awsvpcConfiguration": {
