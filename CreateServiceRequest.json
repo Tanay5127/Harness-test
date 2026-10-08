@@ -1,6 +1,6 @@
 {
   "launchType": "FARGATE",
-  "serviceName": "ecs_service_w1",
+  "serviceName": "ecs_service_w2",
   "desiredCount": 1,
   "networkConfiguration": {
       "awsvpcConfiguration": {
