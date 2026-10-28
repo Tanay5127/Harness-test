@@ -14,7 +14,7 @@
       }
   },
   "deploymentConfiguration": {
-      "maximumPercent": 100,
+      "maximumPercent": ${{ serviceVariables.var4 }},
       "minimumHealthyPercent": 0
   }
 }
