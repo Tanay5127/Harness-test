@@ -1,6 +1,6 @@
 launchType: FARGATE
 serviceName: "ecs-bgtest0"
-desiredCount: 2
+desiredCount: 1
 networkConfiguration:
   awsvpcConfiguration:
     securityGroups:
